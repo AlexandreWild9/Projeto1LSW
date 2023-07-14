@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #a31818;
+    height: 50px;
+}
+
+.cabecalho, .logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+    list-style: none;
+    gap: 3rem;
+}
+
+.cabecalho a, .logo{
+    cursor: pointer;
+    color: white;
+}
+
+.logo {
+    font-size: 30px;
+    padding: 3px;
+    position: relative;
+    font-weight: bold;
+    margin: 0 100px;
+}
+
+.cabecalho a:hover {
+    color: #121212; 
+    font-size: 21px;
+    transition: 0.3s all;
+    font-style:bolder;}
+
+.container {
+    background-color: rgb(241, 241, 241);
+    text-align: justify;
+    position: relative;
+    padding: 15px;
+    width: 800px;
+    max-width: 90%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.rodape {
+    background-color: #a31818;
+    color: white;
+    padding: 20px;
+}
+
+.vertical {
+    border-left: 6px solid black;
+    height: 200px;
+    position:absolute;
+}
